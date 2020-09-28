@@ -8,12 +8,10 @@ def reaData_thinkSpeak():
     nURL = URL+KEY+HEADER
     print (nURL)
     
-    getData = requests.get(nURL).json()
-    feed1 = getData['feeds']
+    getData = request.get(nURL).json()
+    print (getData)
+    channeId = getData['channel']['id']
     
-    fi = []
-    for x in feed1:
-        fi.append(x['field1'])
-        print (fi)
+    #feed1 = 
     
-reaData_thinkSpeak()
+ 
