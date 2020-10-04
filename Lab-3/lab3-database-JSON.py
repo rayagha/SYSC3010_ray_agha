@@ -1,5 +1,5 @@
-#from urllib.requests
-#import * from urllib.parse
+from urllib.requests
+import * from urllib.parse
 import * import json
 # The URL that is formatted: http://api.openweathermap.org/data/2.5/weather?APPID=a808bbf30202728efca23e09 9a4eecc7&units=imperial&q=ottawa
 # As of October 2015, you need an API key.
