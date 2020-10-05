@@ -75,7 +75,7 @@ def equals():
     ]
     return logo
 
-def lettert():
+def heart():
     P = yellow
     O = nothing
     logo = [
@@ -93,23 +93,38 @@ def lettert():
 
     
     
-def heart():
+def letterT():
     P = yellow
     O = nothing
     logo = [
-    O, O, O, O, O, O, O, O,
-    O, P, P, P, P, P, O, O,
-    O, P, P, P, P, P, P, O,
-    O, 0, O, P, P, 0, O, O,
-    O, 0, O, P, P, P, O, O,
+    P, P, P, P, P, P, P, P,
+    P, P, P, P, P, P, P, P,
+    P, P, P, P, P, P, P, P,
+    O, O, O, P, P, O, O, O,
+    O, O, O, P, P, O, O, O,
     O, O, O, P, P, O, O, O,
     O, O, O, P, P, O, O, O,
     O, O, O, P, P, O, O, O,
     ]
-    return logo   
+    return logo
+
+def letterA():
+    P = yellow
+    O = nothing
+    logo = [
+    O, O, P, P, P, P, O, O,
+    O, P, P, P, P, P, P, O,
+    O, P, P, O, O, P, P, O,
+    O, P, P, O, O, P, P, O,
+    O, P, P, P, P, P, P, O,
+    O, P, P, P, P, P, P, O,
+    O, P, P, O, O, P, P, O,
+    O, P, P, O, O, P, P, O,
+    ]
+    return logo
     
 
-images = [trinket_logo, trinket_logo, plus, raspi_logo, raspi_logo, lettert, heart, heart]
+images = [trinket_logo, trinket_logo, plus, raspi_logo, raspi_logo, letterT, heart,letterT,letterA, heart]
 count = 0
 
 while True: 
