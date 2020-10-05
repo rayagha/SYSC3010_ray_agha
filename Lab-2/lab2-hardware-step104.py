@@ -75,7 +75,7 @@ def equals():
     ]
     return logo
 
-def heart():
+def lettert():
     P = yellow
     O = nothing
     logo = [
@@ -89,8 +89,27 @@ def heart():
     O, O, O, O, O, O, O, O,
     ]
     return logo
+    
 
-images = [trinket_logo, trinket_logo, plus, raspi_logo, raspi_logo, equals, heart, heart]
+    
+    
+def heart():
+    P = yellow
+    O = nothing
+    logo = [
+    O, O, O, O, O, O, O, O,
+    O, P, P, P, P, P, O, O,
+    O, P, P, P, P, P, P, O,
+    O, 0, O, P, P, 0, O, O,
+    O, 0, O, P, P, P, O, O,
+    O, O, O, P, P, O, O, O,
+    O, O, O, P, P, O, O, O,
+    O, O, O, P, P, O, O, O,
+    ]
+    return logo   
+    
+
+images = [trinket_logo, trinket_logo, plus, raspi_logo, raspi_logo, lettert, heart, heart]
 count = 0
 
 while True: 
@@ -99,3 +118,4 @@ while True:
     count += 1
     
 s.clear()
+
